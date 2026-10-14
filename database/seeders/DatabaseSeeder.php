@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
 
         // Regular User
         $user = User::firstOrCreate(
-            ['email' => 'ayu@sekolahinspirasi.sch.id'],
+            ['email' => 'olip@sekolahinspirasi.sch.id'],
             [
                 'name' => 'Olip',
                 'password' => Hash::make('password'),
